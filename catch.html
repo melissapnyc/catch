@@ -1,0 +1,35 @@
+<!DOCTYPE HTML 5.13.14>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" 
+  href="style.css">
+  <title>Catch</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="2"><h1 style="text-align:center">My First Game!</h1></td>
+        <td><h1>Score: </h1></td>
+        <td><h1 id="score">0</h1></td>
+    </tr>
+</table>
+<div id="path" class="path">
+	<div id="block" class="block"></div>
+    <div id="brick" class="brick"></div>
+    <div id="gameover"></div>
+</div>
+<br>
+<div class="box">
+<table>
+    <tr>
+        <td><button onclick='movedown()'><b>Start Game</b></button></td>
+        <td><button id="left"onclick='moveleft(brick)'><b>t</b></button></td>
+        <td><button id="right" onclick='moveright(brick)'><b>u</b></button></td>
+        <td><button id="reset" onclick='reset()'><b>Reset</b></button></td>
+        
+    </tr>
+</table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
