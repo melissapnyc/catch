@@ -1,0 +1,95 @@
+.path {
+	position: relative;
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+    margin-left: 20px;
+    margin-bottom: 1px;
+	border: 10px solid #000;
+}
+
+.box {
+	position: relative;
+	overflow: hidden;
+	width: 400px;
+	height: 80px;
+    margin-left: 20px;
+	border: 10px solid #000;
+}
+table {
+    text-align: center;
+    width: 390px;
+    height: 18px;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: Verdana;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: Verdana;
+    text-align: left;  
+}
+
+td {
+    padding: 10px;
+    width: 10px;
+    text-align: center;
+}
+.block {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	margin: 0px;
+	text-align: center;
+	color: #fff;
+	font-size: 10px;
+	white-space: nowrap;
+}
+
+.brick {
+   	position: absolute;
+	background-color: turquoise;
+	width: 60px;
+	height: 10px;
+	margin: 0px;
+	text-align: center;
+	color: #fff;
+	font-size: 10px;
+	white-space: nowrap; 
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    font-size: 15px; 
+    background-color: lightgreen;
+}
+
+#reset {
+    background-color: red;
+}
+
+#left {
+    background-color: pink;
+    font-family: "Wingdings 3";
+}
+
+#right {
+    background-color: orange;
+    font-family: "Wingdings 3";
+}
+
+#score {
+    color: red;
+}
+
+#gameover {
+    margin: 50;
+    font-size: 50px;
+}
